@@ -14,8 +14,8 @@ helm dependency build
 helm dependency update
 
 helm upgrade --install argocd \
-    --set git.targetRevision=argocd \ # Branches are used to deploy a version different from main
-    --set clusterName=scaleway -f values-testnet.yaml -n argocd .
+    --set git.targetRevision=remove-explorer-api \ # Branches are used to deploy a version different from main
+    -f values-docker-testnet.yaml -n argocd .
 ```
 
 ## App of Apps
