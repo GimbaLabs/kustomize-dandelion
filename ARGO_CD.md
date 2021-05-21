@@ -14,8 +14,8 @@ helm dependency build
 helm dependency update
 
 helm upgrade --install argocd \
-    --set git.targetRevision=remove-explorer-api \
-    -f values-docker-testnet.yaml -n argocd .
+    --set git.targetRevision=gio-dev \
+    -f values-docker-mainnet.yaml -n argocd .
 ```
 
 ## App of Apps

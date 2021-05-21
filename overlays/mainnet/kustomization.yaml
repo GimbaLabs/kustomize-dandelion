@@ -8,7 +8,7 @@ commonLabels:
 commonAnnotations:
   note: free-apis!
 generators:
-- helm-chartInflator-postgres-ha.yaml
+#- helm-chartInflator-postgres-ha.yaml
 bases:
 - ../../base/cardano-db-sync
 - ../../base/cardano-graphql
