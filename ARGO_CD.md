@@ -14,7 +14,7 @@ helm dependency build
 helm dependency update
 
 helm upgrade --install argocd \
-    --set git.targetRevision=remove-explorer-api \ # Branches are used to deploy a version different from main
+    --set git.targetRevision=remove-explorer-api \
     -f values-docker-testnet.yaml -n argocd .
 ```
 
