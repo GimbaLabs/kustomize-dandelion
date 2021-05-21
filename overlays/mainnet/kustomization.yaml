@@ -14,11 +14,11 @@ bases:
 - ../../base/cardano-graphql
 - ../../base/cardano-hasura
 - ../../base/cardano-node
-- ../../base/cardano-rosetta
-- ../../base/cardano-submit-api
-- ../../base/ogmios
-- ../../base/postgrest
-- ../../base/postgres-ws
+#- ../../base/cardano-rosetta
+#- ../../base/cardano-submit-api
+#- ../../base/ogmios
+#- ../../base/postgrest
+#- ../../base/postgres-ws
 resources:
 - resources/common-env-configmap.yaml
 - resources/ingress.yaml
